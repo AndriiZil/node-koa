@@ -1,0 +1,32 @@
+{
+  "name": "node-koa",
+  "version": "1.0.0",
+  "description": "koa-example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriiZil/node-koa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndriiZil/node-koa/issues"
+  },
+  "homepage": "https://github.com/AndriiZil/node-koa#readme",
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  },
+  "dependencies": {
+    "koa": "2.12.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-ejs": "^4.3.0",
+    "koa-json": "2.0.2",
+    "koa-router": "^9.0.1"
+  }
+}
